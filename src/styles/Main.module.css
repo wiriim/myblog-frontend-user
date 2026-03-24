@@ -1,0 +1,37 @@
+.main {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.postItem {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+    height: 220px;
+    box-shadow: 4px 4px 7px grey;
+    cursor: pointer;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.postItem:hover{
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 7px grey;
+    
+}
+
+.createdDate {
+    margin: 0.2rem 0 1rem 0;
+    color: rgb(58, 57, 57);
+}
+
+.content {
+    max-height: 90px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

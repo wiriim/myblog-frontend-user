@@ -1,0 +1,9 @@
+.nav{
+    padding: 1rem;
+    display: flex;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 2rem;
+}
