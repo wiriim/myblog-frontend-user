@@ -1,0 +1,60 @@
+.postContainer{
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.createdDate {
+    margin: 1rem 0 1.5rem 0;
+    color: rgb(58, 57, 57);
+}
+
+.content{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.seperator{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.commentSection{
+    margin: 2rem 0;
+}
+
+.commentItem{
+    margin: 2rem 0;
+}
+
+.commentUser{
+    font-size: 1.2rem;
+}
+
+.commentDate{
+    margin: .2rem 0 .3rem 0;
+    color: rgb(58, 57, 57);
+}
+
+.commentForm{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.commentInput{
+    width: 100%;
+    padding: .5rem;
+    min-height: 70px;
+    max-width: 100%;
+}
+.commentBtn{
+    padding: 10px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}

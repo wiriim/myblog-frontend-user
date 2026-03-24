@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PostItem from "./PostItem";
 import styles from "../styles/Main.module.css";
+import { Link } from "react-router";
 
 function Main() {
     const [posts, setPosts] = useState([]);
@@ -43,7 +44,7 @@ function Main() {
         <main className={styles.main}>
             <h1>Posts</h1>
             {posts.map((post) => {
-                return <PostItem key={post.id} post={post}></PostItem>;
+                return <Link to={`post/${post.id}`} state={post} key={post.id} className={styles.link}><PostItem  post={post}></PostItem></Link>;
             })}
         </main>
     );
