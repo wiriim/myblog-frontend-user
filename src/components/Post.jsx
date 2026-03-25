@@ -49,7 +49,7 @@ function Post() {
             });
             const responseJson = await response.json();
             const comment = responseJson.comment;
-            setComments([...comments, comment]);
+            setComments([comment, ...comments]);
         }catch(err){
             console.error(err);
         }
